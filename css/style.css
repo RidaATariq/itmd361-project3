@@ -1,0 +1,383 @@
+/* CSS file for ITMD-361 Project 3 – adding CSS style to the 3-page website. */
+
+body {
+  background-color: #008080;
+  color: #f0fafa;
+  font-family: Georgia, serif;
+  text-align: center;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 0.75%;
+}
+
+ol {
+  list-style: upper-roman;
+}
+
+ul {
+  list-style: square;
+  text-justify: auto;
+  color: #fff;
+}
+
+h1 {
+  padding-top: 1em;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 700;
+  display: block;
+  line-height: 5px;
+  margin: auto;
+  width: auto;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+h3 {
+  text-decoration-style: dashed;
+  text-align: center;
+  font-weight: 700;
+}
+
+h4 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+a {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  margin-left: 15px;
+  text-justify: auto;
+  color: #fff;
+}
+
+.nav {
+  border: solid #2c4e4e;
+  border-width: 5px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  min-width: 500px;
+}
+
+.nav ul {
+  display: inline-block;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+  border: solid #2c4e4e;
+  border-width: 2.5px;
+  padding-top: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+  background-color: #619595;
+  color: #2c4e4e;
+}
+
+.nav a:link,
+a:visited {
+  background-color: #536161;
+  color: #2c4e4e;
+}
+
+.nav a:hover,
+a:active {
+  background-color: #4b6b6b;
+  color: #2c4e4e;
+}
+
+.index {
+  text-align: left;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.main {
+  color: #380205;
+  border-bottom: 5px double;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.title {
+  background: rgb(84, 32, 36);
+  background: linear-gradient(90deg, rgba(84, 32, 36, 0.95) 10%, rgba(56, 2, 5, 1) 50%, rgba(84, 32, 36, 0.9486169467787114) 90%);
+  padding: 5px;
+}
+
+h4.index {
+  color: #b3baba;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.hometown {
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+}
+
+.home {
+  color: #2e470f;
+  font-family: 'Homemade Apple', cursive;
+  border-bottom: 5px double;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ksa {
+  border: 5px dashed #440d46;
+  float: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  min-width: 250px;
+  height: auto;
+  opacity: 1;
+}
+
+.ksa-right {
+  border: 5px dashed #440d46;
+  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  min-width: 250px;
+  height: auto;
+  opacity: 1;
+}
+
+dt {
+  text-align: left;
+  display: block;
+  margin-left: 60px;
+}
+
+dd {
+  text-align: left;
+  display: block;
+  margin-left: 120px;
+}
+
+audio {
+  border: 5px dashed #440d46;
+  float: initial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  min-width: 250px;
+}
+
+a.hometown:link,
+a.hometown:visited {
+  color: #f0fafa;
+  text-decoration: underline;
+}
+
+a.hometown:hover {
+  color: #555557;
+  text-decoration: underline;
+}
+
+.arab_cuisine {
+  background-color: #000;
+  text-align: left;
+  font-family: 'Italiana', serif;
+}
+
+a.arab_cuisine:link,
+a.arab_cuisine:visited {
+  background-color: #000;
+  color: #440d46;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-family: 'Meddon', cursive;
+}
+
+a.arab_cuisine:hover {
+  background-color: #000;
+  color: #000;
+  font-family: 'Meddon', cursive;
+}
+
+#arab_cuisine {
+  color: #440d46;
+  font-family: 'Meddon', cursive;
+  border-bottom: 5px double;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.img {
+  width: auto;
+  height: auto;
+  border: 5px dashed #440d46;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75%;
+  min-height: 100px;
+  width: auto;
+  opacity: 1;
+}
+
+#map {
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  display: block;
+  padding-bottom: 15px;
+  border: 5px solid #2c4e4e;
+}
+
+#ss {
+  border: 5px dotted #2e470f;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .arab_cuisine {
+    background-color: #008080;
+    text-align: left;
+    font-family: 'Italiana', serif;
+  }
+  a.arab_cuisine:link,
+  a.arab_cuisine:visited {
+    background-color: #008080;
+    color: #440d46;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    font-family: 'Meddon', cursive;
+  }
+  a.arab_cuisine:hover {
+    background-color: #008080;
+    color: #000;
+    font-family: 'Meddon', cursive;
+  }
+  #arab_cuisine {
+    background-color: #008080;
+    color: #440d46;
+    font-family: 'Meddon', cursive;
+    border-bottom: 5px double;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  .img {
+    width: auto;
+    height: auto;
+    border: 5px dashed #440d46;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%;
+    min-height: 100px;
+    width: auto;
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .arab_cuisine {
+    background-color: #008080;
+    text-align: left;
+    font-family: 'Italiana', serif;
+  }
+  a.arab_cuisine:link,
+  a.arab_cuisine:visited {
+    color: #440d46;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    font-family: 'Meddon', cursive;
+  }
+  a.arab_cuisine:hover {
+    color: #000;
+    font-family: 'Meddon', cursive;
+  }
+  #arab_cuisine {
+    background-color: #008080;
+    color: #440d46;
+    font-family: 'Meddon', cursive;
+    border-bottom: 5px double;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  @-webkit-keyframes imgborder {
+    100% {
+      border: 5px dashed #825384;
+    }
+  }
+  @keyframes imgborder {
+    100% {
+      border: 5px dashed #825384;
+    }
+  }
+  #animation {
+    -webkit-animation-name: imgborder;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-name: imgborder;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .img {
+    width: auto;
+    height: auto;
+    border: 5px dashed #440d46;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 250px;
+    height: auto;
+    opacity: 1;
+    -webkit-animation-name: imgborder;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-name: imgborder;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
