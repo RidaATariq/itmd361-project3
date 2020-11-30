@@ -32,7 +32,7 @@ images[2] = "media/labneh-with-toppings.jpg";
 images[3] = "media/qahwa-&-sweets.jpg";
 
 function changeImg() {
-  document.slide.src = images[i];
+  document.getElementById("slide").src = images[i];
 
   if (i < images.length - 1) {
     i++;
