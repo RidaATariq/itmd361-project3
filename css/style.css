@@ -359,7 +359,7 @@ a.arab_cuisine:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
-  #img {
+  .img {
     width: auto;
     height: auto;
     border: 5px dashed #440d46;
