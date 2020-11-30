@@ -11,7 +11,7 @@ images[3] = "media/qahwa-&-sweets.jpg";
 
 // Change Image
 function changeImg() {
-  document.slide.src = images[i];
+  document.getElementById("slide").src = images[i];
 
   // Check If Index Is Under Max
   if (i < images.length - 1) {
